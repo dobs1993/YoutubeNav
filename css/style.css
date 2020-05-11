@@ -35,10 +35,15 @@ ul {
     align-items: center;
 }
 
+.content-container .left-side i {
+    cursor: pointer;
+}
+
 
 .content-container .left-side img {
 height: 70px;
 width: 150px;
+cursor: pointer;
 }
 
 /* Middle */
@@ -98,6 +103,7 @@ width: 150px;
 #main-nav .content-container .right-side .fas {
     margin-right: 1rem;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 
@@ -110,7 +116,7 @@ width: 150px;
 
 /* MEDIA 1230 */
 
-@media (max-width:1230px) {
+@media (max-width:1250px) {
 
 
 /* Middle */
@@ -134,7 +140,7 @@ width: 150px;
 
 /* 875PX */
 
-@media(max-width:875px) {
+@media(max-width:885px) {
 
 /* Left Side */
 
@@ -176,7 +182,7 @@ width: 120px;
 }
 }
 
-@media (max-width:665px) {
+@media (max-width:700px) {
 
     /* MIDDLE */
 
